@@ -33,8 +33,7 @@ This tutorial details how to grant specific file permissions to users.<br />
 
 </p>
 <p>
-Created a group resource and virtual machines within Microsoft Azure. The domain server will be named "DC-1" and the user will be named "Client". To ensure that the IP address of the server doesn't change throughout the process, I select the "static" option in the network settings.
-</p>
+Create a group resource and virtual machines within Microsoft Azure. Reference (https://github.com/chrisrraP/configure-ad) for more instruction on how to create virtual machines. 
 <br />
 
 <p>
