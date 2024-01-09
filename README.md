@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory Network File Sharing and Permissions</h1>
-This tutorial details how to grant specific file permissions to users.<br />
+This tutorial briefly details how to grant specific file permissions to users.<br />
 
 
 
