@@ -33,7 +33,7 @@ This tutorial details how to grant specific file permissions to users.<br />
 
 </p>
 <p>
-Create a group resource and virtual machines within Microsoft Azure. Reference (https://github.com/chrisrraP/configure-ad) for more instruction on how to create virtual machines. 
+Create a group resource and virtual machines within Microsoft Azure. Reference (https://github.com/chrisrraP/configure-ad) for more instruction on how to create virtual machines. Log into server (DC-1) and create 3 folders titled after their permission settings (read-access, write-access, and no access). Create a fourth folder called "accountants".
 <br />
 
 <p>
