@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
+<h1>Active Directory Network File Sharing and Permissions</h1>
+This tutorial details how to grant specific file permissions to users.<br />
 
 
 
@@ -12,7 +12,6 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- Power Shell
 
 <h2>Operating Systems Used </h2>
 
@@ -21,10 +20,10 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Creating a Resource Group with Server and Client
-- Configuring TCP Proctols in Windows Firewall
-- Installing Active Directory and User Groups
-- Connecting Virtual Machine to Cloud Server and Adding Users
+- Creating Network Folders and Setting Permissions
+- Adding Groups within organizational units
+- Confirming group permissions
+
 
 <h2>Deployment and Configuration Steps</h2>
 
