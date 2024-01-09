@@ -12,6 +12,7 @@ This tutorial briefly details how to assign specific file permissions to network
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
+- Windows Defense Firewall
 
 <h2>Operating Systems Used </h2>
 
