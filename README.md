@@ -29,7 +29,7 @@ This tutorial briefly details how to assign specific file permissions to network
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Static%20Address.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/kZh2TzI" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
