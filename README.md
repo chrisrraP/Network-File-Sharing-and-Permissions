@@ -45,7 +45,7 @@ Create a group resource and virtual machines within Microsoft Azure. Reference h
 <p>
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Add%20User%20Role.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-I log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, I install Active Directory and add a domain. The machine restarts by default and I log back in with the new domain I created and the pre-existing username. I create Organizational Units (OU) and a couple of users. I give one of the users administrator properties by adding them to "Domain Admins" group. 
+Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, Install Active Directory and add a domain. The machine restarts by default and log back in with the new domain created and the pre-existing username. I create Organizational Units (OU) and a couple of users. Give one of the users administrator properties by adding them to "Domain Admins" group. 
 </p>
 <br />
 
@@ -56,25 +56,6 @@ I log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I use the Microsoft Azure portal to change the DNS settings of the client machine to the server's private IP address. I ensure connectivity and then log back into the server to verify that my "client" computer is listed in the "computers" container of the Active Directory domain root.
-</p>
-<br />
-
-<p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/Allow%20users%20server%20access.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/Generate%20Random%20Users.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Logged back into the client machine with the admin user login and allowed domain users access to remote desktop via system properties. I then log out and log into the domain as the admin user. Using powershell as an administrator allows me to run a script that generates random users to the OU within Active Directory.
-</p>
-<br />
-
-<p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/Login%20as%20new%20user%20to%20server.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lastly, I pick a random user from the OU and log into the client machine. 
+Add a user you've created without administrator properties to the "Accounting" group. Log into client and open file manager. Type "\\dc-1" into the search bar. Confirm the properties are correct by attempting to open and write in the folders. You should be able to open every folder except for the one titled "no access". Experiment further by adding more users with different permissions and see which folders they are able to access.
 </p>
 <br />
