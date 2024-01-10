@@ -51,7 +51,7 @@ Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. 
 <br />
 
 <p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/Change%20Client%20one%20DNS%20Server.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/User%20Added%20to%20NSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/Accounting%20Permissions.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
