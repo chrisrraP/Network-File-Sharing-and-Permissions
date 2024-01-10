@@ -46,7 +46,7 @@ Create a group resource and virtual machines within Microsoft Azure. Reference h
 <p>
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Add%20User%20Role.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, Install Active Directory and add a domain. The machine restarts by default and log back in with the new domain created and the pre-existing username. Create three Organizational Units (OU). Name them "Admins", "Employees" "Securtiy_Group". Right-click into each of these folders an add a couple users. Give the user in the Admins folder administrator properties by adding them to the "Domain Admins" group. Right-click inside the security group folder and add a group called "accounting". Add a user without admin properties as a member to this group. They will be able to access the "accounting" folder that is in the C:\ drive. 
+Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, Install Active Directory and add a domain. The machine restarts by default and log back in with the new domain created and the pre-existing username. Create three Organizational Units (OU). Name them "Admins", "Employees" "Securtiy_Group". Right-click into each of these folders an add a couple users. Give the user in the Admins folder administrator properties by adding them to the "Domain Admins" group.
 </p>
 <br />
 
@@ -57,6 +57,6 @@ Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. 
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Add a user you've created without administrator properties to the "Accounting" group. Log into client and open file manager. Type "\\dc-1" into the search bar. Confirm the properties are correct by attempting to open and write in the folders. You should be able to open every folder except for the one titled "no access". Experiment further by adding more users with different permissions and see which folders they are able to access.
+Add a user you've created without administrator properties as a member of the "Accounting" group. Log into client and open file manager. Type "\\dc-1" into the search bar. Confirm the properties are correct by attempting to open and write in the folders. You should be able to open every folder except for the one titled "no access". Experiment further by adding more users with different permissions and see which folders they are able to access.
 </p>
 <br />
