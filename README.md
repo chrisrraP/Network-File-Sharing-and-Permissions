@@ -54,7 +54,7 @@ Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. 
 <img src="https://github.com/chrisrraP/configure-ad/blob/main/Change%20Client%20one%20DNS%20Server.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/Confirm%20Client%20Server%20Changed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/Accounting%20Permissions.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Add a user you've created without administrator properties as a member of the "Accounting" group. Log into client and open file manager. Type "\\dc-1" into the search bar. Confirm the properties are correct by attempting to open and write in the folders. You should be able to open every folder except for the one titled "no access". Experiment further by adding more users with different permissions and see which folders they are able to access.
