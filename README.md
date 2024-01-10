@@ -38,7 +38,7 @@ Create a group resource and virtual machines within Microsoft Azure. Reference h
 <br />
 
 <p>
-<img src="https://github.com/chrisrraP/configure-ad/blob/main/DC-1%20Firewall%20Setup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/DC-1%20Firewall%20Setup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/Admin%20User.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
