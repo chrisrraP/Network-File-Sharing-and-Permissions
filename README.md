@@ -46,7 +46,7 @@ Create a group resource and virtual machines within Microsoft Azure. Reference h
 <p>
 <img src="https://github.com/chrisrraP/Network-File-Sharing-and-Permissions/blob/main/Admin%20User.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, Install Active Directory and add a domain. The machine restarts by default and log back in with the new domain created and the pre-existing username. Create three Organizational Units (OU). Name them "Admins", "Employees" "Securtiy_Group". Right-click into each of these folders an add a couple users. Give the user in the Admins folder administrator properties by adding them to the "Domain Admins" group.
+Log into the domain server and enable ICMPv4 TCP Protocols on Windows Firewall. Once connectivity is established between both machines, Install Active Directory and add a domain. The machine restarts by default and log back in with the new domain created and the pre-existing username. Create three Organizational Units (OU). Name them "Admins", "Employees" "Security_Group". Right-click into each of these folders an add a couple users. Give the user in the Admins folder administrator properties by adding them to the "Domain Admins" group.
 </p>
 <br />
 
